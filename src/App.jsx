@@ -49,7 +49,7 @@ const App = () => {
         <Route path="/editform/:userId" element={<EditForm />} />
         <Route path="/" element={<Main />} />
 
-        <Route path="/enquiries" element={<Enqueries />} />
+        <Route exact path="/enquiries" element={<Enqueries />} />
 
         <Route path="/layout" element={<EnqueiriesLayout />}>
           <Route path="/layout/addform" element={<AddForm />} />
