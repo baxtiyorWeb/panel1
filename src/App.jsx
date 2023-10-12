@@ -42,7 +42,7 @@ import AddCourse from "./components/pages/addpages/AddCourse";
 import WebSettingsUsers from "./components/pages/settings/web/Currency";
 import WebSettingsCurrensy from "./components/pages/settings/web/Currency";
 import { EditForm } from "./components/pages/EditForm";
-const App = () => {
+const App = () => { 
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
