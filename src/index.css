@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	background: rgb(246, 246, 246);
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.main {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.togglebtn {
+	width: 64px;
+	height: 35px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid #949494a7;
+	cursor: pointer;
+}
+
+.togglebtn:nth-child(1) {
+	background: #6777ef;
+	color: #ffff;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.togglebtn:nth-child(2) {
+	color: #000;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #ffffff;
+}
+
+.light-dark {
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+.colors {
+	display: flex;
+	align-items: center;
+}
+
+.circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	border: 1px solid #000;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.circle:nth-child(1) {
+	background: gray;
+}
+
+.circle:nth-child(2) {
+	background: #3DC7BE;
+}
+
+.circle:nth-child(3) {
+	background: black;
+}
+
+.circle:nth-child(4) {
+	background: #0000FF;
+}
+
+.circle:nth-child(5) {
+	background: darkorange;
+}
+
+.circle:nth-child(6) {
+	background: green;
+}
+
+.circle:nth-child(7) {
+	background: #EA5455;
+}
+
+.dropdown-link {
+	width: 1px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	display: none;
+
+}
+
+::-webkit-scrollbar-track {
+	opacity: 0;
+}
+
+aside:hover ::-webkit-scrollbar {
+	width: 5px;
+}
+
+aside:hover ::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+aside:hover ::-webkit-scrollbar-thumb {
+	background: #878686;
+	border-radius: 10px;
+}
