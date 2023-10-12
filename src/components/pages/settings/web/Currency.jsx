@@ -2,11 +2,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./../../masters/master.css";
 import { enqueryList } from "../../../progress/data";
-import Pagination from "../../../pagination/Pagination";
 
 const WebSettingsCurrensy = () => {
  
-  function pagination() {}
 
   const [search, setSearch] = useState("");
   console.log(search);
